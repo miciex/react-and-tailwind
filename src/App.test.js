@@ -4,8 +4,6 @@ import App from './App'
 
 test('check first div text', () => {
   render(<App />)
-  const linkElement = screen.getByText(
-    /Webpack 6 boilerplate with React 17, Tailwind 2, using babel/i
-  )
+  const linkElement = screen.getByText(/Portfolio/i)
   expect(linkElement).toBeInTheDocument()
 })

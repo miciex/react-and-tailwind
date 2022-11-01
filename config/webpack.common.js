@@ -59,11 +59,11 @@ module.exports = {
 
       // Styles: Inject CSS into the head with source maps
       {
-        test: /\.(css|scss|sass)$/,
+        test: /\.css$/,
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
-          'sass-loader',
+          // 'sass-loader',
           {
             loader: 'postcss-loader', // postcss loader needed for tailwindcss
             options: {
@@ -73,6 +73,7 @@ module.exports = {
               },
             },
           },
+          // 'sass-loader',
         ],
       },
 
