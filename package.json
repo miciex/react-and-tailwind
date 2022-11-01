@@ -1,7 +1,6 @@
 {
   "author": {
-    "name": "Stefan Wüthrich",
-    "url": "https://altafino.com"
+    "name": "Maciej Milewski"
   },
   "keywords": [
     "react",
@@ -13,7 +12,7 @@
   "license": "MIT",
   "name": "react-webpack-5-tailwind-2",
   "version": "1.0.1",
-  "description": "Webpack 6 boilerplate with React 17, Tailwind 2, using babel, sass, with HMR and an optimized production build",
+  "description": "Webpack 6 boilerplate with React 18, Tailwind 3, using babel, with HMR and an optimized production build",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
